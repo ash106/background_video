@@ -1,2 +1,36 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.col-xs-12 {
+  // margin-left: -15px;
+  // margin-right: -15px;
+}
+
+body {
+  background-color: #000;
+}
+
+#loop-video-bg {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  display: block;
+  opacity: 0.3;
+}
+
+.content {
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+h1, h2 {
+  font-weight: 100;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 20px;
+}
